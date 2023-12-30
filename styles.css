@@ -84,9 +84,9 @@ li {
 
 .signup-button {
   border-radius: 12px;
-  padding: 8px 30px;
+  padding: 8px 48px;
   background-color: #3882f6;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   color: #f9faf8;
 }
@@ -170,3 +170,36 @@ li {
   align-self: flex-end;
 }
 
+.action {
+  padding: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-container {
+  background-color: #3882f6;
+  padding: 48px 140px;
+  display: flex;
+  border-radius: 24px;
+  gap: 64px;
+}
+
+.action-heading {
+  font-size: 32px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.action-text{
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.action .signup-button {
+  border: 3px solid #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 64px;
+}
