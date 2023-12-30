@@ -8,18 +8,17 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  font-family: 'Roboto';
 }
 
 .header{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  padding: 24px 72px;
 }
 
 .footer{
-  font-family: 'Roboto';
   font-size: 18px;
   color: #e5e7eb;
   display: flex;
@@ -30,7 +29,6 @@ body {
 }
 
 .logo {
-  font-family: 'Roboto', sans-serif;
   color: #f9faf8;
   font-size: 24px;
   font-weight: 700;
@@ -46,10 +44,129 @@ ul {
 
 li {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
   color: #e5e7eb;
   font-size: 18px;
 }
 
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 96px 72px;
+  justify-content: space-around;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
 
+.hero .heading {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 32px;
+}
+
+.hero-image{
+  background-color:#8d8d8d;
+  width: 550px;
+  height: 300px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.signup-button {
+  border-radius: 12px;
+  padding: 8px 30px;
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.hero .signup-button{
+  border: 0;
+  outline: 0;
+}
+
+.images .heading {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 64px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 18px;
+  align-items: center;
+
+}
+
+.card .image {
+  border: #3882f6 6px solid;
+  border-radius: 24px;
+  height: 200px;
+  width: 200px;
+}
+
+.card .label {
+  text-align: center;
+  font-size: 22px;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-person {
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-end;
+}
 
